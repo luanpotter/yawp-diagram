@@ -57,8 +57,10 @@ public class Generator {
                             Class<?> elOf = (Class) type;
                             m.add(Type.LAZY_LIST_MODEL, field.getName(), name(features, elOf));
                         }
-                    } else {
+                    } else if (features.getByClazz(clazz) != null) {
                         m.add(Type.LAZY_MODEL, field.getName(), name(features, clazz));
+                    } else {
+                        System.out.println("Unmapped LazyJson: " + clazz + " on field " + field.getName());
                     }
                 }
             }
