@@ -14,4 +14,9 @@ public class DiagramShield extends Shield<Diagram> {
     public void generate() {
         allow();
     }
+
+    @GET("graphic")
+    public void graphic() {
+        allow();
+    }
 }
