@@ -1,4 +1,4 @@
-package io.yawp.testapp.diagram;
+package io.yawp.extras.diagram.model;
 
 import io.yawp.repository.annotations.Endpoint;
 

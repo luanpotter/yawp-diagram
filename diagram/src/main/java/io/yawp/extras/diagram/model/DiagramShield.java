@@ -1,4 +1,4 @@
-package io.yawp.testapp.diagram;
+package io.yawp.extras.diagram.model;
 
 import io.yawp.commons.http.annotation.GET;
 import io.yawp.repository.shields.Shield;

@@ -1,4 +1,4 @@
-package io.yawp.testapp.util;
+package io.yawp.extras.diagram.util;
 
 public class Reference {
 

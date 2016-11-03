@@ -1,4 +1,4 @@
-package io.yawp.testapp.util;
+package io.yawp.extras.diagram.util;
 
 import java.util.ArrayList;
 import java.util.List;

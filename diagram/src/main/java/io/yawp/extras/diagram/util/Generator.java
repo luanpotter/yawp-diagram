@@ -1,4 +1,4 @@
-package io.yawp.testapp.util;
+package io.yawp.extras.diagram.util;
 
 import io.yawp.commons.utils.ReflectionUtils;
 import io.yawp.repository.IdRef;

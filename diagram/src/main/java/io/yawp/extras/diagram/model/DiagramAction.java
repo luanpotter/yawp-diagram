@@ -1,10 +1,10 @@
-package io.yawp.testapp.diagram;
+package io.yawp.extras.diagram.model;
 
 import io.yawp.commons.http.annotation.GET;
+import io.yawp.extras.diagram.util.Generator;
+import io.yawp.extras.diagram.util.Model;
 import io.yawp.repository.Yawp;
 import io.yawp.repository.actions.Action;
-import io.yawp.testapp.util.Generator;
-import io.yawp.testapp.util.Model;
 
 import java.util.List;
 

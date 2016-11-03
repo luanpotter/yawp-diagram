@@ -22,6 +22,12 @@
             <version>${yawp.version}</version>
         </dependency>
 
+        <dependency>
+            <groupId>io.yawp.extras.diagram</groupId>
+            <artifactId>yawp-diagram</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+
         <!-- testing dependencies -->
         <dependency>
             <groupId>io.yawp</groupId>
